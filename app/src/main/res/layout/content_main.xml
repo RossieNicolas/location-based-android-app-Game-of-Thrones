@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/startpg">
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_alignParentTop="true"
+
+        android:gravity="center"
+        android:text="Welcome to our Game Of Thrones quest.\n\n
+ The king is dead! Our great king Joffrey Baratheon, first of his name, has been brutally murdered on the campus floor of Mendel university in Brno. All we know is that there were only 6 people who could have possibly done it. Are you ready to avenge our king and find the monster who did this to our kingdom ? Use your detective skills to bring the murderer to justice.
+ \nGo to given locations and answer the questions, but be careful if you give the wrong answer you will be given false information."
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="#ffaa976c"
+
+        />
+
+    <TableLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:layout_below="@+id/introduction"
+        android:layout_marginTop="14dp"
+        android:padding="42dp">
+
+        <TableRow>
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#ffaa976c"
+                android:text="SUSPECTS"
+                android:textColor="#ffffff"
+
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </TableRow>
+        <!-- ROW 1 -->
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/hodor_main"
+                android:layout_width="98dp"
+                android:layout_height="match_parent"
+
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/image_hodor" />
+
+            <ImageView
+                android:id="@+id/jonsnow_main"
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/image_john" />
+
+            <ImageView
+                android:id="@+id/tyrion_main"
+                android:layout_width="121dp"
+                android:layout_height="129dp"
+                android:layout_marginRight="5dp"
+
+                android:src="@drawable/image_tyrion" />
+        </TableRow>
+        <!-- TEXT ROW 1 -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/hodortext_main"
+                android:gravity="center"
+                android:text="HODOR"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/jonsnowtext_main"
+                android:gravity="center"
+                android:text="JON SNOW"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tyriontext_main"
+                android:gravity="center"
+                android:text="TYRION"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+        </TableRow>
+        <!-- ROW 2 -->
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/arya_main"
+                android:layout_width="79dp"
+                android:layout_height="143dp"
+                android:src="@drawable/image_arya" />
+
+            <ImageView
+                android:id="@+id/daenarys_main"
+                android:layout_width="93dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/image_daenerys" />
+
+            <ImageView
+                android:id="@+id/nightking_main"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/image_the_night_king" />
+        </TableRow>
+        <!-- TEXT ROW 2 -->
+        <TableRow>
+
+            <TextView
+                android:id="@+id/aryatext_main"
+                android:gravity="center"
+                android:text="ARYA"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/daenarystext_main"
+                android:gravity="center"
+                android:text="DAENARYS"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/nightkingtext_main"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="THE NIGHT KING"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+        </TableRow>
+    </TableLayout>
+    <!-- START BUTTON -->
+
+    <Button
+        android:id="@+id/main_button"
+
+        android:text="Start"
+        android:textColor="#B5B5B5"
+        android:textSize="20sp"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonshapemain"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="start"
+
+        />
+
+</RelativeLayout>

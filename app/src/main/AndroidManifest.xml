@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ChoicePuzzleActivity2"
+            android:label="@string/title_activity_choice_puzzle2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SimplePuzzleActivity2"
+            android:label="@string/title_activity_simple_puzzle2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question5WrongActivity"
+            android:label="@string/title_activity_question5_wrong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question5RightActivity"
+            android:label="@string/title_activity_question5_right"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question4WrongActivity"
+            android:label="@string/title_activity_question4_wrong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question4RightActivity"
+            android:label="@string/title_activity_question4_right"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question3WrongActivity"
+            android:label="@string/title_activity_question3_wrong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question3RightActivity"
+            android:label="@string/title_activity_question3_right"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question2WrongActivity"
+            android:label="@string/title_activity_question2_wrong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question2RightActivity"
+            android:label="@string/title_activity_question2_right"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question1WrongActivity"
+            android:label="@string/title_activity_question1_wrong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Question1RightActivity"
+            android:label="@string/title_activity_question1_right"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinalVerdictWrongActivity"
+            android:label="@string/title_activity_final_verdict_wrong"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinalVerdictCorrectActivity"
+            android:label="@string/title_activity_final_verdict_correct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinalVerdictActivity"
+            android:label="@string/title_activity_final_verdict"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinnishActivity"
+            android:label="@string/title_activity_finnish"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ImagePuzzleActivity"
+            android:label="@string/title_activity_image_puzzle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChoicePuzzleActivity"
+            android:label="@string/title_activity_choice_puzzle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SimplePuzzleActivity"
+            android:label="@string/title_activity_simple_puzzle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

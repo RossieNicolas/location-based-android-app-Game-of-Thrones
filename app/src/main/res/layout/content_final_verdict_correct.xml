@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FinalVerdictCorrectActivity"
+    tools:showIn="@layout/activity_final_verdict_correct">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:gravity="center"
+        android:text="Congratulations! You found the murderer of our great King Joffrey. Now justice can be served. Arya will pay for her crimes. She will be beheaded in front of all the students!
+\nThank you for playing our Game of Clues. I hope you enjoyed it!
+"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffaa976c"/>
+</RelativeLayout>

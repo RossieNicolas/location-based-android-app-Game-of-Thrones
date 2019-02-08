@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_bottom_Margin">10dp</dimen>
+</resources>

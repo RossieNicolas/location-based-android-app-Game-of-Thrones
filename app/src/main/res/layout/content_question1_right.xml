@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Question1RightActivity"
+    tools:showIn="@layout/activity_question1_right">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_alignParentTop="true"
+
+        android:gravity="center"
+        android:text="Ohh dear, the king got murdered!? You need to find who did this! I didn’t see much, I had a class of android programming I just learned how to use the map activity component. It was a bit difficult but Jon Snow helped with the difficult parts."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffaa976c"/>
+    <ImageView
+        android:id="@+id/eddard"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/image_eddard"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonshape"
+        android:onClick="continueWithGame"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Continue"
+        android:textColor="#B5B5B5"
+        android:textSize="13sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"/>
+</RelativeLayout>

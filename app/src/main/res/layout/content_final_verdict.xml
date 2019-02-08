@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FinalVerdictActivity"
+    tools:showIn="@layout/content_final_verdict"
+    android:background="@drawable/abdel">
+
+    <!-- <TableRow> ALS JE EEN NIEUWE RIJ WILT MAKEN ZORG ERVOOR DAT HET IN DE JUISTE VOLGORDE STAAT -->
+    <TableLayout
+        android:id="@+id/final_layout"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- TITLE (SEYMA VERANDER TEXT VAN TITEL NAAR IETS PASSEND) -->
+
+        <TableRow>
+
+        </TableRow>
+        <TableRow>
+            <TextView />
+        </TableRow>
+        <TableRow>
+            <TextView />
+        </TableRow>
+        <TableRow>
+            <TextView android:text=" " />
+        </TableRow>
+        <TableRow>
+            <TextView android:text=" " />
+        </TableRow>
+        <TableRow>
+            <!-- ROW 1 -->
+            <ImageView
+                android:id="@+id/hodor_final"
+                android:layout_width="80dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/image_hodor"
+                />
+            <ImageView />
+            <ImageView
+                android:id="@+id/tyrion_final"
+                android:layout_width="121dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="129dp"
+                android:src="@drawable/image_tyrion" />
+        </TableRow>
+        <!-- TEXT ROW 1 -->
+        <TableRow>
+            <TextView
+                android:id="@+id/hodortext_final"
+                android:text="HODOR"
+                android:gravity="center"/>
+            <TextView />
+            <TextView
+                android:id="@+id/tyriontext_final"
+                android:text="TYRION"
+                android:gravity="center"/>
+        </TableRow>
+        <!-- ROW 2 -->
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/arya_final"
+                android:layout_width="93dp"
+                android:layout_height="143dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/image_arya"
+                />
+            <ImageView />
+
+            <ImageView
+                android:id="@+id/nightking_final"
+                android:layout_height="129dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/image_the_night_king"
+                />
+        </TableRow>
+        <!-- TEXT ROW 2 -->
+        <TableRow>
+            <TextView
+                android:id="@+id/aryatext_final"
+                android:text="ARYA"
+                android:gravity="center"
+                />
+            <TextView android:text="                                    " android:gravity="right"/>
+
+            <TextView
+                android:id="@+id/nightkingtext_final"
+                android:text="THE NIGHT KING"
+                android:gravity="right"/>
+        </TableRow>
+        <!-- ROW 3 -->
+        <TableRow>
+            <ImageView
+                android:id="@+id/jonsnow_final"
+                android:layout_width="87dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="200dp"
+                android:src="@drawable/image_john"
+                android:paddingTop="95dp"
+                />
+            <ImageView />
+            <ImageView
+                android:id="@+id/daenarys_final"
+                android:layout_width="94dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/image_daenerys"
+                android:paddingTop="95dp"/>
+        </TableRow>
+        <!-- TEXT ROW 3 -->
+        <TableRow>
+            <TextView
+                android:id="@+id/johnsnowtext_final"
+                android:text="JON SNOW"
+                android:gravity="center"
+                />
+            <TextView />
+            <TextView
+                android:id="@+id/daenarystext_final"
+                android:text="DAENARYS"
+                android:gravity="center"
+                />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

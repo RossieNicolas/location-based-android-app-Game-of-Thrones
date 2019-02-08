@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">testapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_simple_puzzle">SimplePuzzleActivity</string>
+    <string name="title_activity_choice_puzzle">ChoicePuzzleActivity</string>
+    <string name="title_activity_image_puzzle">ImagePuzzleActivity</string>
+    <string name="title_activity_finnish">FinnishActivity</string>
+    <string name="question_text">This is where the question will be.</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_start_screen">StartScreenActivity</string>
+    <string name="title_activity_final_verdict">FinalVerdictActivity</string>
+    <string name="title_activity_final_verdict_correct">FinalVerdictCorrectActivity</string>
+    <string name="title_activity_final_verdict_wrong">FinalVerdictWrongActivity</string>
+    <string name="title_activity_question1_right">Question1RightActivity</string>
+    <string name="title_activity_question1_wrong">Question1WrongActivity</string>
+    <string name="title_activity_question2_right">Question2RightActivity</string>
+    <string name="title_activity_question2_wrong">Question2WrongActivity</string>
+    <string name="title_activity_question3_right">Question3RightActivity</string>
+    <string name="title_activity_question3_wrong">Question3WrongActivity</string>
+    <string name="title_activity_question4_right">Question4RightActivity</string>
+    <string name="title_activity_question4_wrong">Question4WrongActivity</string>
+    <string name="title_activity_question5_right">Question5RightActivity</string>
+    <string name="title_activity_question5_wrong">Question5WrongActivity</string>
+    <string name="title_activity_simple_puzzle2">SimplePuzzleActivity2</string>
+    <string name="title_activity_choice_puzzle2">ChoicePuzzleActivity2</string>
+</resources>
